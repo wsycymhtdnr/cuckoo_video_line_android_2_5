@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/redact_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:background="@color/white_bg"
+        android:textColor="@color/track_matte"
+        android:text="@string/redact_text1"
+        android:textSize="12sp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <RelativeLayout
+        android:id="@+id/redact_head"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redact_head"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/head_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_logo_logo"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+    </RelativeLayout>
+
+    <View
+        style="@style/h_line"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:id="@+id/redact_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redact_name"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:id="@+id/redact_nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redact_nametext"
+            android:textSize="13sp"
+            android:textColor="@color/track_matte"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+    </RelativeLayout>
+
+    <View
+        style="@style/h_line"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:id="@+id/redact_sex"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redact_sex"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:id="@+id/redact_sextext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redact_sextext"
+            android:textSize="13sp"
+            android:textColor="@color/track_matte"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:background="@color/white_bg"
+        android:textColor="@color/track_matte"
+        android:text="@string/redact_text2"
+        android:textSize="12sp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/redact_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="tencent_sdk_app_id">1400150022</integer>
+    <string name="amap_key">5fb0514e139987a21c7b7550b5f9d3a0</string>
+    <string name="umeng_appkey">5bc20e73f1f55681150006aa</string>
+    <string name="umeng_message_secret">a3cab4a60b676429b2d532c42818286e</string>
+    <string name="open_install_key">evuzhx</string>
+    <string name="wx_app_id">wx0dc89782960f25a0</string>
+</resources>

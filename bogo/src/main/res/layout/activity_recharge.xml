@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color">
+
+    <include layout="@layout/layout_top_bar"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <!--充值规则-->
+       <LinearLayout
+           android:layout_marginTop="20dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_marginLeft="5dp"
+               android:text="@string/select_money"
+               android:textColor="@color/black"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+           <android.support.v7.widget.RecyclerView
+               android:id="@+id/rv_recharge_rule_list"
+               android:layout_marginTop="15dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+           </android.support.v7.widget.RecyclerView>
+       </LinearLayout>
+
+
+       <!--充值方式-->
+        <View
+            android:layout_marginTop="20dp"
+            android:background="@color/light_gray3"
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_content_list_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+       <TextView
+           android:textColor="@color/gray"
+           android:textSize="@dimen/text_size_10"
+           android:text="虚拟币仅用于视频聊天和送礼物"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="15dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:background="@color/white"
+       android:layout_alignParentBottom="true"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:visibility="gone"
+           android:id="@+id/btn_pay_pal"
+           android:text="@string/pay_pal_pay"
+           android:textColor="@color/white"
+           android:background="@color/lightblue"
+           android:layout_width="match_parent"
+           android:layout_height="40dp" />
+       <Button
+           android:layout_marginTop="1px"
+           android:id="@+id/btn_recharge"
+           android:text="@string/one_key_rechange"
+           android:textColor="@color/white"
+           android:background="@color/admin_color"
+           android:layout_width="match_parent"
+           android:layout_height="40dp" />
+   </LinearLayout>
+
+</RelativeLayout>

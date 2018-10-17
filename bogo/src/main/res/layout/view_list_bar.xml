@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/list_bar_gift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/list_bar_gift_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/list_bar_gift_text"
+            android:gravity="center_vertical"
+            android:textSize="13sp"
+            android:paddingLeft="10dp"/>
+
+        <View
+            android:id="@+id/view_line_gift"
+            android:layout_below="@+id/list_bar_gift_text"
+            style="@style/h_line"
+            android:layout_height="1px"/>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/view_line_gift"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_centerVertical="true"
+                android:id="@+id/list_bar_gift_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/list_bar_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/list_bar_video_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/list_bar_video_text"
+            android:gravity="center_vertical"
+            android:textSize="13sp"
+            android:paddingLeft="10dp"/>
+
+        <View
+            android:id="@+id/view_line_video"
+            android:layout_below="@+id/list_bar_video_text"
+            android:layout_height="1px"
+            style="@style/h_line"/>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/list_bar_video_text"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_centerVertical="true"
+                android:id="@+id/list_bar_video_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/list_bar_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/list_bar_photo_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/list_bar_photo_text"
+            android:gravity="center_vertical"
+            android:textSize="13sp"
+            android:paddingLeft="10dp"/>
+
+        <View
+            android:id="@+id/view_line_photo"
+            android:layout_below="@+id/list_bar_photo_text"
+            android:layout_height="1px"
+            style="@style/h_line"/>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/view_line_photo"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_centerVertical="true"
+                android:id="@+id/list_bar_photo_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
+</merge>

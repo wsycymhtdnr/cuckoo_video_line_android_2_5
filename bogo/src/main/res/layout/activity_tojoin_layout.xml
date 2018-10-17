@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/tojoin_topBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_gray3">
+    </com.qmuiteam.qmui.widget.QMUITopBar>
+
+    <RelativeLayout
+        android:id="@+id/tojoin_cause"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_white_black"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/tojoin_cause_text"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/tojoin_right_img"
+            android:src="@drawable/icon_arrow_right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/tojoin_select_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_toStartOf="@+id/tojoin_right_img"
+            android:text="@string/inform_cause_right"
+            android:textColor="@color/track_matte"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <View
+        style="@style/h_line"
+        android:layout_height="1dp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/tojoin_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="12sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:met_maxCharacters = "200"
+        app:met_hideUnderline="true"
+        app:met_clearButton="true"
+        android:inputType="textMultiLine"
+        android:hint="@string/tojoin_cause_hint"
+        android:background="@color/white"/>
+
+</LinearLayout>
