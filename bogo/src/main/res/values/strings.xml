@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">U聊</string>
+    <string name="app_name">私奔</string>
     <string name="conversation_del">删除会话</string>
 
     <!-- time -->
@@ -9,7 +9,7 @@
     <string name="time_year">年</string>
     <string name="time_more">99+</string>
 
-    <!-- home activity -->
+    <!-- home activity_agreement -->
     <string name="home_conversation_tab">会话</string>
     <string name="home_setting_tab">设置</string>
 
@@ -53,7 +53,7 @@
     <string name="save_exist">文件已存在</string>
     <string name="save_succ">保存成功</string>
 
-    <!-- chat activity -->
+    <!-- chat activity_agreement -->
     <string name="chat_image">图片</string>
     <string name="chat_file">文件</string>
     <string name="chat_photo">拍摄</string>
@@ -361,7 +361,7 @@
     <string name="buy">购买</string>
     <string name="wechat">微信</string>
     <string name="edit_auth_body_hint">随便什么都行</string>
-    <string name="plase_upload_id_card">请上传身份证正反面</string>
+    <string name="plase_upload_id_card">请上传本人照片</string>
     <string name="submit_auth_from">提交认证申请</string>
     <string name="auth_submit_info_wait_tips">你提交的认证资料我们已经收到</string>
     <string name="plase_add_custom_service">请加客服QQ</string>
@@ -438,4 +438,24 @@
     <string name="nickname">昵称</string>
     <string name="inviting_friends">邀请好友</string>
     <string name="order">排行</string>
+    <string name="agreement">绿色平台公约
+坚决打击违法违规行为，
+彻贯彻国家的净网行动.
+私奔是一款时尚，新潮的视频聊天交友应用，致力为陌生人之间沟通搭建桥梁，打造一个有趣，汇聚正能量，符合社会主义核心价值观的交友平台
+1.坚决打击各类使用低俗色情的昵称，签名，头像诱导点击行为：
+2.对低俗与擦边球内容，不限于图片及短视频，全面多人轮工审核：
+3.对色情内容零容忍，严禁发布，交流任何含低俗，色情等相关内容，禁止在聊天中表现低俗，引诱，挑逗暴露着装等性暗示等行为：
+4.严禁发布，交流暴力，违法，毒品，赌博枪支弹药，违禁品等内容，严禁交流宗教迷信，占卜算命等内容：
+5.严禁使用军人，警察以及其他国家公务人员身着制服的头像及照片，强烈打击和封杀一切代表反党，反政府，反社会的言论或作出侮辱，诋毁党和国家的行为：
+6.严禁在视频聊天中黑屏，挂机，对着天花板或者其他违法的画面：
+7.严禁私加微信，QQ电话邮箱等其它联系方式，因私加联系方式发生骗取财物等后果，私奔概不负责
+8.未成年人禁止使用此产品，本产品需年满18岁方可注册：
+9.一经发现货举报，平台上任何用户存在以上违规行为，私奔平台视情节轻重，给予相应删除信息，警告，屏蔽处理，以及3天或者7天或永久封号处理：
+10.平台所有用户可通过个人页右上角客服入口留言举报平台核实后会立即对违规行为进行处理，如发现用户的举报是恶意行为，也将进行相应的处理：
+11.已封号的账户，其所参与的任何行为均属无效。
+12.私奔平台受理举报绝不会收取押金，咨询费，服务费等任何不明目的费用，如遇收费均属欺诈。
+
+坚决打击各类低俗，涉黄，裸聊行为，严厉打击私加联系方式，广告诈骗等行为。
+投诉人，举报人，奖励对方的积分或金币，余额永久封禁所有违规男女账号，并配合网警调查。
+愿大家余私奔携手共进，感谢大家对私奔平台的支持！本公约最终解释群规私奔官方所有</string>
 </resources>

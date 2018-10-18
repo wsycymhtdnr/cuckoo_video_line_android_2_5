@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">布谷鸟一对一</string>
+    <string name="app_name">私奔</string>
     <string name="conversation_del">刪除會話</string>
 
     <!-- time -->
@@ -9,7 +9,7 @@
     <string name="time_year">年</string>
     <string name="time_more">99+</string>
 
-    <!-- home activity -->
+    <!-- home activity_agreement -->
     <string name="home_conversation_tab">會話</string>
     <string name="home_setting_tab">設定</string>
 
@@ -53,7 +53,7 @@
     <string name="save_exist">文件已存在</string>
     <string name="save_succ">保存成功</string>
 
-    <!-- chat activity -->
+    <!-- chat activity_agreement -->
     <string name="chat_image">圖片</string>
     <string name="chat_file">文件</string>
     <string name="chat_photo">拍攝</string>
@@ -362,7 +362,7 @@
     <string name="buy">購買</string>
     <string name="wechat">微信</string>
     <string name="edit_auth_body_hint">隨便什麼都行</string>
-    <string name="plase_upload_id_card">請上傳身份證正反面</string>
+    <string name="plase_upload_id_card">請上傳本人照片</string>
     <string name="submit_auth_from">提交認證信息</string>
     <string name="auth_submit_info_wait_tips">您提交的認證資料我們已經收到</string>
     <string name="plase_add_custom_service">請加客服QQ</string>

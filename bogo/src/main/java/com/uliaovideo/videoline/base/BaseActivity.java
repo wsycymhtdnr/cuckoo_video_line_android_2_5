@@ -525,7 +525,7 @@ public abstract class BaseActivity extends FragmentActivity implements View.OnCl
 
     /**
      * 删除指定的activity
-     * @param activity activity
+     * @param activity activity_agreement
      */
     protected void finishActivity(Activity activity){
         AppManager.getAppManager().finishActivity(activity);

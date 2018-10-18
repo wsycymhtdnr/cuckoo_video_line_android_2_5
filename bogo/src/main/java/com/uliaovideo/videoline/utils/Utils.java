@@ -246,7 +246,7 @@ public class Utils{
      */
     public static boolean isMobile(String number) {
         //"[1]"代表第1位为数字1，"[34578]"代表第二位可以为3、4、5、7、8中的一个，"\\d{9}"代表后面是可以是0～9的数字，有9位。
-        String num = "[1][34578]\\d{9}";
+        String num = "[1][3456789]\\d{9}";
         if(TextUtils.isEmpty(number)) {
             return false;
         } else {

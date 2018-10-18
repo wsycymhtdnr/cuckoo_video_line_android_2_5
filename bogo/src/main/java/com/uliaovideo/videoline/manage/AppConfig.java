@@ -64,7 +64,7 @@ public class AppConfig {
         Properties props = new Properties();
         try {
             // 读取files目录下的config
-            // fis = activity.openFileInput(APP_CONFIG);
+            // fis = activity_agreement.openFileInput(APP_CONFIG);
 
             // 读取app_config目录下的config
             File dirConf = mContext.getDir(APP_CONFIG, Context.MODE_PRIVATE);
@@ -87,7 +87,7 @@ public class AppConfig {
         FileOutputStream fos = null;
         try {
             // 把config建在files目录下
-            // fos = activity.openFileOutput(APP_CONFIG, Context.MODE_PRIVATE);
+            // fos = activity_agreement.openFileOutput(APP_CONFIG, Context.MODE_PRIVATE);
 
             // 把config建在(自定义)app_config的目录下
             File dirConf = mContext.getDir(APP_CONFIG, Context.MODE_PRIVATE);

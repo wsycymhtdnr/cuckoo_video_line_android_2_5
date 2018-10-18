@@ -43,11 +43,11 @@ public class RecyclerVideoSmallAdapter extends BaseQuickAdapter<VideoModel,BaseV
         helper.setText(R.id.left_love_number,item.getFollow_num());
         //是否付费
         helper.setGone(R.id.videolist_masking,item.getStatus().equals("2"));
-
-        if(item.getStatus().equals("2")){
+        Utils.loadHttpImg(MyApplication.getInstances(),Utils.getCompleteImgUrl(item.getImg()), (ImageView) helper.getView(R.id.adapter_video_image));
+        /*if(item.getStatus().equals("2")){
             Utils.loadHttpImgBlue(MyApplication.getInstances(),item.getImg(), (ImageView) helper.getView(R.id.adapter_video_image),0);
         }else{
             Utils.loadHttpImg(MyApplication.getInstances(),Utils.getCompleteImgUrl(item.getImg()), (ImageView) helper.getView(R.id.adapter_video_image));
-        }
+        }*/
     }
 }
