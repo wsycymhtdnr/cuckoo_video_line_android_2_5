@@ -20,7 +20,7 @@ import com.qmuiteam.qmui.widget.QMUITopBar;
 import com.qmuiteam.qmui.widget.QMUIViewPager;
 
 import java.util.ArrayList;
-
+//排行界面
 public class CuckooOrderActivity extends BaseActivity {
     //功能
     private QMUIViewPager rollViewViewpage;

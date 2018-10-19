@@ -135,7 +135,7 @@ public class Api {
                 .tag("getUserPhotoList")
                 .cacheMode(CacheMode.DEFAULT)
                 .execute(callback);
-        Log.d("api","获取轮播图####"+shuffling+"getUserPhotoList");
+        Log.d("bannerapi","获取轮播图####"+shuffling+"getUserPhotoList");
     }
 
     /**

@@ -63,6 +63,7 @@ public class WebViewActivity extends FragmentActivity implements IWebPageView, V
         setTitle("详情");
         initView();
         initWebView();
+        webView.setInitialScale(100);
         webView.loadUrl(mUrl);
     }
 
